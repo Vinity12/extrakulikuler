@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: DelRose;
+  src: url(assets/fonts/DelRose-Regular.ttf);
+}
+
+body {
+  background: #0d0d14;
+  background-image: url(assets/images/infinite_library.jpg);
+  backdrop-filter: blur(3px);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  min-height: 100vh;
+  font-family: serif;
+  color: white;
+}
+
+header {
+  width: 100%;
+  height: 4rem;
+
+  background-color: #362c21e3;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  height: 100%;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  height: auto;
+  padding: 1.1rem;
+
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: white;
+
+  transition: all 0.3s;
+}
+
+a:hover {
+  background-color: #836923;
+}
+
+#home {
+  height: 95vh;
+
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.intro {
+  margin: auto;
+}
+
+.title {
+  font-family: DelRose;
+  font-size: 10rem;
+  font-weight: lighter;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#books {
+  background-color: #0d0d14;
+
+  padding: 10%;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+li {
+  background-color: #6e4529;
+
+  border-radius: 10px;
+  padding: 1rem;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(14, 9, 9);
+  padding: 3rem;
+}
