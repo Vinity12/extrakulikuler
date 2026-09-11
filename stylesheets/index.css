@@ -1,6 +1,6 @@
 body {
   background: #0d0d14;
-  /*background-image: url(../assets/images/infinite_library.jpg);*/
+  background-image: url(../assets/images/infinite_library.jpg);
   backdrop-filter: blur(3px);
   background-position: center;
   background-size: cover;
