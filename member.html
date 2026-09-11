@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/table.css">
+    <link rel="stylesheet" href="stylesheets/global.css">
+    <link rel="stylesheet" href="stylesheets/header.css">
+    <title>Members | Library of Babel</title>
+</head>
+<body>
+    <header>
+      <nav>
+        <a href="index.html">DASHBOARD</a></li>
+        <a href="book.html">BOOKS</a></li>
+        <a href="member.html">MEMBERS</a></li>
+        <a href="profile.html">PROFILE</a></li>
+      </nav>
+    </header>
+
+    <main>
+        <h1>Member List</h1>
+
+        <table id="list">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Phone Number</th>
+                    <th>Gender</th>
+                    <th>Date of Birth</th>
+                    <th>Actions</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Febrian</td>
+                    <td>Bikini Bottom</td>
+                    <td>0812-4617-9850</td>
+                    <td>Male</td>
+                    <td>14/8/2010</td>
+                    <td><button>Edit</button><button>Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><hr width="60%">
+
+        <form method="post">
+            <table>
+                <caption>Add new member</caption>
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" required></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td>:</td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><button type="reset">Reset</button></td>
+                    <td></td>
+                    <td><button type="submit">Add</button></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    
+</body>
+</html>

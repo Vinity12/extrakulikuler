@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: DelRose;
+  src: url(assets/fonts/DelRose-Regular.ttf);
+}
+
+body {
+  background: #160a07;
+
+  min-height: 100vh;
+  font-family: serif;
+  color: white;
+}
+
+main {
+  padding-bottom: 4rem;
+}

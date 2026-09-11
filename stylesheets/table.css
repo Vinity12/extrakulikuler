@@ -1,0 +1,63 @@
+body {
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 12vh;
+  font-size: 5rem;
+}
+
+table {
+  padding: 2rem;
+  border-radius: 10px;
+
+  background-color: #000000;
+}
+
+th, 
+td {
+  padding: 0.4rem 0.8rem;
+}
+
+button, input {
+  margin: auto 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: bold;
+
+  transition: all 0.1s ease;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+#list,
+#list th,
+#list td {
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid white;
+}
+
+hr {
+  margin: 2rem auto;
+}
+
+caption {
+  font-size: 2rem;
+  margin: 2rem auto;
+}
